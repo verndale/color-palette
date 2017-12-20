@@ -1,0 +1,40 @@
+$default-colors: (
+  //black/white
+  "white": #FFF,
+  "black": #000,
+
+  //social
+  "reddit-one": #CEE3F8,
+  "reddit-two": #FF5700,
+  "twitter": #55ACEE,
+  "pinterest": #CB2027,
+  "instagram": #125688,
+  "facebook": #3B5998,
+  "linkedin": #007BB5,
+  "dropbox": #007EE5,
+  "vine": #00BF8F,
+  "whatsapp": #4DC247,
+  "flickr": #FF0084,
+  "tumblr": #32506D,
+  "vimeo": #AAD450,
+  "spotify": #00E461,
+  "github": #000,
+  "behance": #1769FF,
+  "youtube": #B00,
+  "googleplus": #DD4B39,
+  "rss": #F60,
+  "snapchat": #FFFC00
+);
+
+$colors: () !default;
+
+$mergedColors: map-merge($default-colors, $colors);
+
+@function color($key) {
+  @if map-has-key($mergedColors, $key) {
+    @return map-get($mergedColors, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $colors.";
+  @return null;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@verndale/color-palette",
+  "description": "Customizable map of colors.",
+  "license": "MIT",
+  "version": "0.0.0",
+  "files": [
+    "color-palette.scss"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/v3rndale/color-palette.git"
+  }
+}

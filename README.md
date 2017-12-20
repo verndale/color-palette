@@ -57,7 +57,7 @@ There are default colors already defined in color-palette, ready for use.
 * "rss": #F60
 * "snapchat": #FFFC00
 
-These colors can be used just like the [example above](#Usage)
+These colors can be used just like the [example above](#usage)
 ```scss
 $colors: (
   "blue": "#0000FF",

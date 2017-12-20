@@ -4,15 +4,17 @@
 Color palette is a function and a simple map of colors that can be overriden.
 
 ## Install
-* [npm](http://npmjs.org/): `npm install @verndale/color-palette --save`
+```sh
+npm install @verndale/color-palette --save
+```
 
 This should be the first file you import in to your main SCSS entry file. You can import this
 file either after or before your normalize or reset SCSS, it doesn't matter as color-palette
 does not depend on these styles.
 
 ## Usage
-Define a color map and import the color-palette after.
-```css
+Define a color map and import the color-palette after the map definition.
+```scss
 $colors: (
   "blue": "#0000FF",
   "green": "#00FF00"
@@ -29,11 +31,11 @@ body {
 
 There are default colors already defined in color-palette, ready for use.
 
-Standard colors
+### Standard colors
 * "white": #FFF
 * "black": #000
 
-Social media colors
+### Social media colors
 * "reddit-one": #CEE3F8
 * "reddit-two": #FF5700
 * "twitter": #55ACEE

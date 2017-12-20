@@ -29,7 +29,7 @@ body {
 }
 ```
 
-There are default colors already defined in color-palette, ready for use.
+There are predefined colors that come with color-palette and are ready for use upon importing.
 
 ### Standard colors
 * "white": #FFF
@@ -57,7 +57,7 @@ There are default colors already defined in color-palette, ready for use.
 * "rss": #F60
 * "snapchat": #FFFC00
 
-These colors can be used just like the [example above](#usage)
+These predefined colors are mixed in and can be used with our custom colors we defined.
 ```scss
 $colors: (
   "blue": "#0000FF",
@@ -69,11 +69,11 @@ import "node_modules/@verndale/color-palette/colors";
 
 html,
 body {
-  color("black");
-  background: color("blue");
+  color: color("black"); //predefined color
+  background: color("blue"); //custom color we defined
 }
 
 .icon--facebook {
-  color: color("facebook");
+  color: color("facebook"); //predefined color
 }
 ```

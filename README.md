@@ -56,3 +56,24 @@ There are default colors already defined in color-palette, ready for use.
 * "googleplus": #DD4B39
 * "rss": #F60
 * "snapchat": #FFFC00
+
+These colors can be used just like the [example above](#Usage)
+```scss
+$colors: (
+  "blue": "#0000FF",
+  "green": "#00FF00"
+);
+
+import "node_modules/@verndale/color-palette/colors";
+
+
+html,
+body {
+  color("black");
+  background: color("blue");
+}
+
+.icon--facebook {
+  color: color("facebook");
+}
+```

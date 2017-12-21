@@ -1,33 +1,54 @@
+$reddit-one: #CEE3F8 !default;
+$reddit-two: #FF5700 !default;
+$twitter: #55ACEE !default;
+$pinterest: #CB2027 !default;
+$instagram: #125688 !default;
+$facebook: #3B5998 !default;
+$linkedin: #007BB5 !default;
+$dropbox: #007EE5 !default;
+$vine: #00BF8F !default;
+$whatsapp: #4DC247 !default;
+$flickr: #FF0084 !default;
+$tumblr: #32506D !default;
+$vimeo: #AAD450 !default;
+$spotify: #00E461 !default;
+$github: #000 !default;
+$behance: #1769FF !default;
+$youtube: #B00 !default;
+$googleplus: #DD4B39 !default;
+$rss: #F60 !default;
+$snapchat: #FFFC00 !default;
+
+
 $default-colors: (
   //black/white
   "white": #FFF,
   "black": #000,
 
   //social
-  "reddit-one": #CEE3F8,
-  "reddit-two": #FF5700,
-  "twitter": #55ACEE,
-  "pinterest": #CB2027,
-  "instagram": #125688,
-  "facebook": #3B5998,
-  "linkedin": #007BB5,
-  "dropbox": #007EE5,
-  "vine": #00BF8F,
-  "whatsapp": #4DC247,
-  "flickr": #FF0084,
-  "tumblr": #32506D,
-  "vimeo": #AAD450,
-  "spotify": #00E461,
-  "github": #000,
-  "behance": #1769FF,
-  "youtube": #B00,
-  "googleplus": #DD4B39,
-  "rss": #F60,
-  "snapchat": #FFFC00
+  "reddit-one": $reddit-one,
+  "reddit-two": $reddit-two,
+  "twitter": $twitter,
+  "pinterest": $pinterest,
+  "instagram": $instagram,
+  "facebook": $facebook,
+  "linkedin": $linkedin,
+  "dropbox": $dropbox,
+  "vine": $vine,
+  "whatsapp": $whatsapp,
+  "flickr": $flickr,
+  "tumblr": $tumblr,
+  "vimeo": $vimeo,
+  "spotify": $spotify,
+  "github": $github,
+  "behance": $behance,
+  "youtube": $youtube,
+  "googleplus": $googleplus,
+  "rss": $rss,
+  "snapchat": $snapchat
 );
 
 $colors: () !default;
-
 $mergedColors: map-merge($default-colors, $colors);
 
 @function color($key) {

@@ -20,6 +20,7 @@ $colors: (
   "green": "#00FF00"
 );
 
+//path is relative to the file you are importing this in to.
 import "node_modules/@verndale/color-palette/colors";
 
 

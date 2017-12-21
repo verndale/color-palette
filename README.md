@@ -15,12 +15,13 @@ does not depend on these styles.
 ## Usage
 Define a color map and import the color-palette after the map definition.
 ```scss
+//-- styles.scss
+//assuming this file is in src/scss (src/scss/styles.scss)
 $colors: (
   "blue": "#0000FF",
   "green": "#00FF00"
 );
 
-//assuming this file is in src/scss
 import "../../node_modules/@verndale/color-palette/colors";
 
 
@@ -60,12 +61,13 @@ There are predefined colors that come with color-palette and are ready for use u
 
 These predefined colors are mixed in and can be used with our custom colors we defined.
 ```scss
+//-- styles.scss
+//assuming this file is in src/scss (src/scss/styles.scss)
 $colors: (
   "blue": "#0000FF",
   "green": "#00FF00"
 );
 
-//assuming this file is in src/scss
 import "../../node_modules/@verndale/color-palette/colors";
 
 

@@ -64,8 +64,8 @@ These predefined colors are mixed in and can be used with our custom colors we d
 //-- styles.scss
 //assuming this file is in src/scss (src/scss/styles.scss)
 $colors: (
-  "blue": "#0000FF",
-  "green": "#00FF00"
+  "blue": #0000FF,
+  "green": #00FF00
 );
 
 import "../../node_modules/@verndale/color-palette/colors";

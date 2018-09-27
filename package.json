@@ -6,8 +6,19 @@
   "files": [
     "colors.scss"
   ],
+  "author": {
+    "name": "Joe Fusco",
+    "email": "joe.fusco@verndale.com"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/v3rndale/color-palette.git"
+  },
+  "scripts": {
+    "version": "npm run build && git add .",
+    "postversion": "git push origin master --tags"
   }
 }
